@@ -1,0 +1,18 @@
+.styling {
+  display: -webkit-inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 1.5rem 0rem 0;
+}
+
+.filterTag {
+  color: hsl(180, 29%, 50%);
+  border: none;
+  background-color: hsl(180, 31%, 95%);
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  padding: 0.13rem 0.6rem;
+  text-align: center;
+  font-weight: 900;
+  display: block;
+}

@@ -1,0 +1,13 @@
+.background{
+    background-color: hsl(180, 29%, 50%);
+    height: 23.5vh;
+    background-image: url('../../assets/bg-header-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(min-width:390px){
+    .background{
+        background-image: url('../../assets/bg-header-desktop.svg');
+    }
+}

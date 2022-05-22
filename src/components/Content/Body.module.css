@@ -1,0 +1,37 @@
+.overlay {
+  border-radius: 0.4rem;
+  background-color: #fff;
+  margin: 3rem 1.5rem;
+  padding: 1.8rem 1.5rem;
+  box-shadow: 4px 4px 6px #d5d0d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear {
+  color: hsl(180, 8%, 52%);
+  background-color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+@media (min-width: 390px) {
+  .overlay {
+    margin: 3rem 3.5rem;
+  }
+}
+
+@media (min-width: 486px) {
+    .overlay {
+        margin: 3rem 4.5rem;
+      }
+}
+
+@media(min-width:568px){
+    .overlay {
+        margin: 3rem 4.5rem;
+      }
+  }
